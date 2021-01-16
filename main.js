@@ -5,6 +5,18 @@ const mediaStreamConstraints = {
   video: true,
 };
 
+// constraint for video resolution
+const hdConstraints = {
+    video: {
+      width: {
+        min: 1280
+      },
+      height: {
+        min: 720
+      }
+    }
+  }
+  
 // Video element where stream will be placed.
 const localVideo = document.querySelector('video');
 
