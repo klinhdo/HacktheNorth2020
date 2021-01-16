@@ -5,6 +5,12 @@ body {
 h1 {
     vertical-align: middle;
     text-align: center;
+    size: 80px;
+    color: navy;
+}
+
+#description {
+    text-align: center;
 }
 
 #buttonContainer {
