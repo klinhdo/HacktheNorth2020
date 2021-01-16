@@ -423,7 +423,7 @@ function closeVideoCall() {
     // Stop all transceivers on the connection
 
     myPeerConnection.getTransceivers().forEach(transceiver => {
-      transceiver.stop();
+      transceiver.stop
     });
 
     // Stop the webcam preview as well by pausing the <video>
@@ -467,7 +467,7 @@ function handleHangUpMsg(msg) {
 
 function hangUpCall() {
   closeVideoCall();
-
+  
   sendToServer({
     name: myUsername,
     target: targetUsername,
