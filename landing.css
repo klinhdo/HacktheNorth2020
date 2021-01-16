@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+}
+h1 {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#buttonContainer {
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 5px solid white;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
