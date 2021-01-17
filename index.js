@@ -12,14 +12,14 @@ async function main() {
 
     // Add Firebase project configuration object here
     var firebaseConfig = {
-        apiKey: "AIzaSyAJbthdRS_BVITh9KWkZRFq2WL5XR745rw",
-        authDomain: "fir-code-lab-c1fa2.firebaseapp.com",
-        projectId: "fir-code-lab-c1fa2",
-        storageBucket: "fir-code-lab-c1fa2.appspot.com",
-        messagingSenderId: "181873501847",
-        appId: "1:181873501847:web:7bdb287817b09812f9abd2",
-        measurementId: "G-4CG8CYZMS9"
-    };
+        apiKey: "AIzaSyC0UY_D8L27PoXbCNGbMhHFDPeyFTnK3Xc",
+        authDomain: "fir-rtc-d62fd.firebaseapp.com",
+        projectId: "fir-rtc-d62fd",
+        storageBucket: "fir-rtc-d62fd.appspot.com",
+        messagingSenderId: "971433442353",
+        appId: "1:971433442353:web:1954283a797b2486c8e910",
+        measurementId: "G-LVDDMKT9PZ"
+      };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
