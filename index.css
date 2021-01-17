@@ -6,7 +6,7 @@ body {
 
 #logo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -19,11 +19,9 @@ h1 {
     text-align: center;
 }
 
-
-
 button {
-    position:fixed;
-    left: 42.5%;
+    position: relative;
+    left: 46%;
     margin-top: 20px;
     border: none;
     border-radius: 16px;
@@ -34,13 +32,9 @@ button {
     font-size: 2rem;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
+    transition: background 250ms ease-in-out, transform 150ms ease;
 }
 
-button:hover{
-    background:  #cf8700;
+button:hover {
+    background: #cf8700;
 }
-
-
-
