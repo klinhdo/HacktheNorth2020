@@ -15,6 +15,9 @@
     "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
   },
   "dependencies": {
+    "@firebase/util": "^0.2.45",
+    "firebase": "^8.2.3",
+    "firebaseui": "^4.7.1",
     "webrtc-adapter": "^1.4.0",
     "websocket": "^1.0.33"
   }
