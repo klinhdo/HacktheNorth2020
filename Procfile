@@ -1,2 +1,2 @@
-web: chmod u+x
+web: chmod u+x startup.sh
 ./startup.sh
