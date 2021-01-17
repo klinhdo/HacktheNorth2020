@@ -5,9 +5,9 @@ body {
 }
 
 #logo {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 h1 {
@@ -23,14 +23,15 @@ h1 {
 
 button {
     position:fixed;
-    left:45%;
+    left: 42.5%;
+    margin-top: 20px;
     border: none;
     border-radius: 16px;
     padding: 1rem 2rem;
     background: #e79b0c;
     color: #ffffff;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 2rem;
     cursor: pointer;
     text-align: center;
     transition: background 250ms ease-in-out, 
@@ -38,7 +39,7 @@ button {
 }
 
 button:hover{
-    background: #0053ba;
+    background:  #cf8700;
 }
 
 
